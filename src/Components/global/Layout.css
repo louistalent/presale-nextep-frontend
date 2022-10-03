@@ -1,0 +1,99 @@
+.layout {
+    background: #f3f3f3;
+    height: 100vh;
+}
+
+.dark .layout {
+    height: 100vh;
+    background: #0F0F0F !important;
+}
+
+.dark .layout_ {
+    background: #181818 !important;
+}
+
+.padding-top-11 {
+    padding-top: 45px;
+}
+
+
+.width-64 {
+    width: 220px;
+}
+
+.rotate-360 {
+    transform: translate(0, 0) rotate(360deg) skewX(0) skewY(0) scaleX(1) scaleY(1);
+}
+
+.toggle {
+    /* dark:filter-none hidden fixed cursor-pointer left-[28px] top-[46px] z-[3] md:block sm:top-[53px] */
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    left: 28px;
+    top: 46px;
+    z-index: 11;
+
+}
+
+.dark .toggle {
+    filter: none !important;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.next-font {
+    color: #0F0F0F;
+}
+
+.dark .next-font {
+    color: #FDFDFD;
+}
+
+.p-7 {
+    padding: 1.75rem;
+}
+
+.language-p-3 {
+    padding: 0.3rem 20px;
+}
+
+.padding-5 {
+    padding: 38px 26px 0;
+}
+
+.padding-lr-5 {
+    padding: 0 26px;
+}
+
+.padding-tm-5 {
+    padding: 38px 0;
+}
+
+.my-h1 {
+    line-height: 62px !important;
+}
+
+.multilanguage {
+    position: absolute;
+    bottom: 80px;
+    width: 74%;
+}
+
+.multilanguage li {
+    background: #e7e7e7;
+}
+
+.dark .multilanguage li {
+    background: #0f0f0f;
+}
+
+@media (max-width:767px) {
+    .multilanguage {
+        position: relative;
+        width: 100%;
+        bottom: 5px;
+    }
+}
